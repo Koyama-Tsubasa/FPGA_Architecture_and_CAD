@@ -1,0 +1,6 @@
+=============================== Evaluator ===============================
+Check Fixed node constraint pass.
+Check Partition size constraints violation pass.
+The total topology constraints voilations is 3
+The sum of external degree is 41
+==========================================================================
