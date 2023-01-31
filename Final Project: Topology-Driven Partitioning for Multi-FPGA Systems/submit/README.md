@@ -1,19 +1,20 @@
-# FPGA Architecture & CAD
---  How to Compile
-    In this directory, enter the following command:
-    $ make 
-    It will generate the executable file "topart" in "FPGA-Architecture-CAD/bin".
+--- How to compile ---
 
-    if you want to remove it, please enter the following command:
-    $ make clean
+command:  $ make
+It will generate the executable file "topart" in "FPGA-Architecture-CAD/bin".
 
---  How to Run
-    In this directory, enter the following command:
-    Usage: bin/<exe> input/<testcase file> output/<output file>
-    e.g.:
-    $ bin/topart input/B1.txt output/output1.txt 
+command:  $ make clean
+To remove the executable file in "HW3/bin/"
 
-    In "FPGA-Architecture-CAD/bin/", enter the following command:
-    Usage: ./<exe> ../input/<testcase file> ../output/<output file>
-    e.g.:
-    $ ./topart ../input/B1.txt ../output/output1.txt
+
+--- How to run ---
+
+In this directory , enter the following command:
+command:  bin/<exe> input/<testcase file> output/<output file>
+e.g. : 
+$ bin/topart input/B1.txt output/output1.txt 
+
+In "FPGA-Architecture-CAD/bin/", enter the following command:
+command:  ./<exe> ../input/<testcase file> ../output/<output file>
+e.g. :
+$ ./topart ../input/B1.txt ../output/output1.txt
