@@ -18,3 +18,14 @@ In "FPGA-Architecture-CAD/bin/", enter the following command:
 command:  ./<exe> ../input/<testcase file> ../output/<output file>
 e.g. :
 $ ./topart ../input/B1.txt ../output/output1.txt
+
+
+--- How to verify ---
+
+In the beginning, please use the following command to make it excutable.
+command:  chmod +x verify
+
+In this directory , enter the following command:
+command:  ./verify input/<testcase file> output/<output file>
+e.g. : 
+$ ./verify input/B1.txt output/output1.txt 
