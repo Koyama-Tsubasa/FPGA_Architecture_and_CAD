@@ -4,7 +4,7 @@ command:  $ make
 It will generate the executable file "topart" in "FPGA-Architecture-CAD/bin".
 
 command:  $ make clean
-To remove the executable file in "HW3/bin/"
+To remove the executable file in "FPGA-Architecture-CAD/bin/"
 
 
 --- How to run ---
